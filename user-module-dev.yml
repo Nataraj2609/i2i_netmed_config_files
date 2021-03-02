@@ -1,9 +1,9 @@
 spring: 
-  data: 
-    mongodb: 
-      uri: "${mongocred}"
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver
     password: "${dbpassword}"
     url: "jdbc:mysql://localhost:3306/netmed_dev"
     username: "${dbusername}"
+javers:
+  mongodb: 
+    uri: "${mongocred}"
