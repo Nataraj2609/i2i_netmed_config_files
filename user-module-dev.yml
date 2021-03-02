@@ -4,3 +4,6 @@ spring:
     username: ${dbusername}
     password: ${dbpassword}
     driver-class-name: com.mysql.jdbc.Driver
+	data:
+		mongodb:
+			uri: ${mongocred}
