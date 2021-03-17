@@ -7,3 +7,5 @@ spring:
 javers:
   mongodb: 
     uri: "${mongocred}"
+logging:
+  file: application.log
