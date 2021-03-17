@@ -8,4 +8,5 @@ javers:
   mongodb: 
     uri: "${mongocred}"
 logging:
-  file: application.log
+  file:
+    name: application.log
