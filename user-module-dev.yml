@@ -9,4 +9,4 @@ javers:
     uri: "${mongocred}"
 logging:
   file:
-    name: /Users/Windows/Documents/logs/application.log
+    name: /Users/Windows/Documents/healthcare Project 1/logstashDirectory/log/application.log
